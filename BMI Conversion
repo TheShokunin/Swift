@@ -1,0 +1,7 @@
+var bmi: Double
+var weight: Double = 65
+var height: Double = 1.78
+
+bmi = weight / (height * height)
+
+print("Your BMI is \(bmi)")
