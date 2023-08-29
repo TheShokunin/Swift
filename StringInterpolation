@@ -1,0 +1,3 @@
+//super quick test of String Interpolation - adding values into Strings
+var age: Int = 38
+print("I am \(age) years old.")
