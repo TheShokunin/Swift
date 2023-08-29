@@ -1,0 +1,9 @@
+var apples = 16
+
+// Write your code below 🍎
+apples -= 4
+apples /= 2
+apples *= 35
+apples += 4500
+apples %= 565
+print(apples)
