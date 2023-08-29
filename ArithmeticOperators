@@ -1,0 +1,12 @@
+var amount = 18.50
+// Write your code below 🧾
+var tip = amount * 0.2
+print(tip)
+var test = tip / 3
+print(test)
+var leeds = test + 345
+print(leeds)
+var chips = leeds - 23.654
+print(chips)
+var wallet = 5 % 2 
+print(wallet)
