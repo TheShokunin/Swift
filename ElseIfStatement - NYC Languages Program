@@ -1,0 +1,23 @@
+// Write your code below 🗽
+/* Languages spoken in NYC
+English - Eng
+Spanish - Spa
+Mandarin - Mand
+Russian - Rus */
+
+var abbreviation = "Eng"
+if abbreviation == "Eng" {
+  print("English")
+  }
+else if abbreviation == "Spa" {
+  print("Spanish") 
+  }
+else if abbreviation == "Mand" {
+  print("Mandarin")
+  }
+else if abbreviation == "Rus" {
+  print("Russian")
+  }
+else {
+  print("Abbreviation not found")
+  }
