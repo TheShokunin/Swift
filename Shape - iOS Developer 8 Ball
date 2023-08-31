@@ -1,22 +1,22 @@
 let playerName = "Oli"
-let playerQuestion = "Will it rain in Copenhagen today?"
+let playerQuestion = "Should Shape take a chance on Oli as their new Student iOS Developer?"
 let randomNumber = Int.random(in:1...9)
 let eightBall: String
 switch randomNumber {
   case 1:
-  eightBall = "Of course, this is Denmark!"
+  eightBall = "Absolutely - he will not let you down!"
   case 2:
   eightBall = "Selvfølgelig!"
   case 3:
-  eightBall = "Måske"
+  eightBall = "Have you noticed there are no responses that say no? :-D"
   case 4:
-  eightBall = "Jeg ved ikke"
+  eightBall = "For sure!"
   case 5:
-  eightBall = "Winter is coming....so probably"
+  eightBall = "He may be early in his learnings, but he is incredibly passionate and hungry to succeed!"
   case 6:
-  eightBall = "What ever happened to summer? :()"
+  eightBall = "Darth Vader. Oops, sorry, wrong quiz!"
   case 7:
-  eightBall = "Nope! Get out your factor 50!"
+  eightBall = "How can we say no??"
   default:
   eightBall = "Error"
 }
