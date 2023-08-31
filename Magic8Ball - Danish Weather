@@ -1,0 +1,24 @@
+let playerName = "Oli"
+let playerQuestion = "Will it rain in Copenhagen today?"
+let randomNumber = Int.random(in:1...9)
+let eightBall: String
+switch randomNumber {
+  case 1:
+  eightBall = "Of course, this is Denmark!"
+  case 2:
+  eightBall = "Selvfølgelig!"
+  case 3:
+  eightBall = "Måske"
+  case 4:
+  eightBall = "Jeg ved ikke"
+  case 5:
+  eightBall = "Winter is coming....so probably"
+  case 6:
+  eightBall = "What ever happened to summer? :()"
+  case 7:
+  eightBall = "Nope! Get out your factor 50!"
+  default:
+  eightBall = "Error"
+}
+print("\(playerName) asks: \(playerQuestion)")
+print("Magic 8 Ball's answer: \(eightBall)")
