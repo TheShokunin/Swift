@@ -17,6 +17,10 @@ switch randomNumber {
   eightBall = "Darth Vader. Oops, sorry, wrong quiz!"
   case 7:
   eightBall = "How can we say no??"
+  case 8:
+  eightBall = "Yes!"
+  case 9:
+  eightBall = "Definitely!"
   default:
   eightBall = "Error"
 }
